@@ -11,7 +11,8 @@
     "postinstall": "nuxt prepare",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@nuxt/icon": "^1.4.3",
