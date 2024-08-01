@@ -1,10 +1,9 @@
 <template>
   <div class="bg-cover">
-    <h1 class="text-title">
-      Nuxt App
-    </h1>
+    <h1 class="text-title">Nuxt App</h1>
     <p class="text-content px-10">
       Content
+      <Icon name="uil:github" style="color: black" />
     </p>
   </div>
 </template>

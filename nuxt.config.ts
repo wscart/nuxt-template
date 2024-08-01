@@ -14,6 +14,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxtjs/i18n",
     "@nuxtjs/seo",
+    'dayjs-nuxt',
+    '@nuxt/icon'
   ],
   runtimeConfig: {
     apiSecret: "", // 可以由 NUXT_API_SECRET 环境变量覆盖
