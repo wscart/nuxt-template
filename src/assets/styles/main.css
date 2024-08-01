@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* light模式 */
+  html {
+    --primary-cover: #ffffff;
+    --primary-title: #000000;
+    --primary-content: #1a202c;
+    --primary-subhead: rgba(26, 32, 44, 0.24);
+  }
+
+  /* dark模式 */
+  html[class="dark"] {
+    --primary-cover: #1e1e27;
+    --primary-title: #ffffff;
+    --primary-content: #f7fafc;
+    --primary-subhead: rgba(247, 250, 252, 0.24);
+  }
+}
