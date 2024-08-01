@@ -7,7 +7,7 @@ ENV HOST 0.0.0.0
 #4. 容器内创建目录/nuxt3
 RUN mkdir -p /app
 #5. 复制当前的内容到容器内容部目录/nuxt3
-COPY ./ . /app
+COPY ./ /app
 #6. 切换工作目录到/nuxt3
 WORKDIR /app
 #7. 暴露端口3000（这个端口指的是dorker容器内端口，可自行设置）

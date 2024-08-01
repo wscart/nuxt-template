@@ -1,8 +1,9 @@
 {
-  "name": "nuxt-app",
+  "name": "nuxt-template",
   "private": true,
   "type": "module",
   "scripts": {
+    "pm2": "npx pm2 start ./ecosystem.config.cjs --interpreter babel-node --env production",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
@@ -14,11 +15,16 @@
   },
   "dependencies": {
     "@nuxt/icon": "^1.4.3",
+    "@nuxtjs/i18n": "^8.3.3",
+    "@nuxtjs/robots": "^4.0.2",
+    "@nuxtjs/seo": "2.0.0-rc.16",
+    "@nuxtjs/sitemap": "6.0.0-beta.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "@pinia/nuxt": "^0.5.2",
     "@vueuse/core": "^10.11.0",
     "@vueuse/nuxt": "^10.11.0",
     "nuxt": "^3.12.4",
+    "nuxt-og-image": "3.0.0-rc.64",
     "pinia": "^2.2.0",
     "vue": "latest"
   },
